@@ -6,7 +6,8 @@ export interface TreeNode {
   id?: any,
   label?: string,
   isLeaf?: boolean,
-  children?: TreeNode[]
+  children?: TreeNode[],
+  [key: string | number]: any
 }
 
 export interface RenderContent {
